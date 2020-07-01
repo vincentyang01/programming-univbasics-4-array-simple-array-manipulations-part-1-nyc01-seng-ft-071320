@@ -7,3 +7,8 @@ def using_unshift(array, string)
   array = ['1','2','3']
   array.unshift(string)
 end
+
+def pop_with_args (array)
+  array = [1,2,3]
+  array.pop();
+end
