@@ -4,11 +4,11 @@ def using_push(array,string)
 end
 
 def using_unshift(array, string)
-  array = ['1','2','3']
-  array.unshift(string)
+  arr = ['1','2','3']
+  arr.unshift(string)
 end
 
 def pop_with_args (array)
-  array = [1,2,3]
-  array.pop();
+  arr = [1,2,3]
+  arr.pop();
 end
